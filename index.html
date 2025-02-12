@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daisy - Developer Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Daisy's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html" target="_self">
+                            Home
+                        </a></li>
+                    <li><a href="#About">
+                            About
+                        </a></li>
+                    <li><a href="#Projects">
+                            Projects
+                        </a></li>
+                    <li><a href="#contact">
+                            Contact
+                        </a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection" id="firstSection">
+            <div class="leftSection">
+                <div>Hi,Myself <span class="colr">Daisy</span></div>
+                <div>and I am a Passionate</div>
+                <!-- <div>Software Developer</div> -->
+                <span id="element"></span>
+
+            </div>
+
+            <div class="rightSection">
+                <img src="bg.jpg" alt="">
+            </div>
+        </section>
+
+        <hr>
+    </main>
+    <button id="scrollTopBtn" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <div class="about" id="About">
+
+        <div class="row">
+            <div class="col1">
+                <img src="IMG_4787.JPG" alt="">
+
+            </div>
+            <div class="col2">
+                <h1 class="subTitle">About Me</h1>
+
+                <p>“An individual with a keen interest in Software programs,possessing good interpersonal and analytical
+                    skills.Looking forward to earning the position of Software Engineer at a leading organization to
+                    showcase my skills in programming to generate high-end solutions to general software issues along
+                    with drawing better user experience and where I can use my skills to the advantage of the company
+                    while having the scope to develop my skills.”</p>
+                <div class="tabTitles">
+                    <p class="tabLinks activeLink" onclick="openTab('education')">Education</p>
+                    <p class="tabLinks" onclick="openTab('experience')">Experience</p>
+                    <p class="tabLinks" onclick="openTab('certificates')">Certificates</p>
+                </div>
+                <div class="tabContents activeTab" id="education">
+                    <ul>
+                        <!-- <li><span>Full Stack Development Certification (2024-2025)</span><br>Croma Campus (Noida,UP)
+                        </li> -->
+                        <li><span>B.Tech CSE (2019-2023)</span><br>Guru Jambheshwar University of Scienec and
+                            Technology (Hisar,Haryana)</li>
+                        <li><span>Senior Secondary (2018-2019)</span><br>Campus School (Hisar,Haryana)</li>
+                        <li><span>Secondary (2016-2017)</span><br>Campus School (Hisar,Haryana)
+                        </li>
+                    </ul>
+                </div>
+                <div class="tabContents" id="experience">
+                    <ul>
+                        <li><span>Full Stack Developer Intern (Remote)</span><br>Kubotor Pvt Ltd (July 2024-Jan
+                            2025)<br>
+                        </li>
+                        <li><span>Full Stack with MERN Stack Course (Noida,UP)</span><br>
+                            Croma Campus (2023-2024) <br>HTML |
+                            CSS |
+                            JavaScript | JQuery | Bootstrap <br> React.js | Express.js | Node.js | MongoDB
+                        </li>
+                        <!-- <li><span>Programming Skills</span><br>JavaScript | C++ | Python <br> C programming</li>
+                        <li><span>Web
+                                Development</span><br>HTML | CSS | JavaScript <br> JQuery | Bootstrap | React.js <br>
+                            Express.js | Node.js | MongoDB
+                        </li>
+                        <li><span>Soft Skills</span><br>Leadership | Creative Thinking <br> Team Work | Time Management
+                        </li> -->
+                    </ul>
+                </div>
+                <div class="tabContents" id="certificates">
+                    <ul>
+                        <li><span>Full Stack Development</span><br>Croma Campus (Noida)</li>
+                        <li><span>C++</span><br>Coding Ninjas</li>
+                        <li><span>Python</span><br>Hackerrank and Coding Ninjas</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="skills" style="padding: 10px;">
+        <div class="container">
+            <h1 class="subTitle pro">My Skills</h1>
+
+            <p>As a Software developer, I specialize in crafting responsive and user-friendly web interfaces
+                using modern technologies
+                like HTML, CSS, JavaScript, and ReactJS. I create seamless user experiences while ensuring
+                clean, maintainable code.
+
+                With a strong understanding of MongoDB and Node.js, I also contribute to building robust
+                full-stack solutions, enabling
+                dynamic and scalable web applications that bring ideas to life. My focus is on blending
+                design and functionality to
+                deliver impactful digital experiences that users love.
+            </p>
+
+
+            <section class="skill-container">
+                <div class="skill-box">
+                    <div class="progress-card">
+                        <div class="circular-progress" style="--percentage: 10deg; --color: #fca61f;">
+                            <span class="progress-value">95%</span>
+                        </div>
+                        <span>HTML & CSS</span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="progress-card">
+                        <div class="circular-progress" style="--percentage: 30deg; --color: #6f34fe;">
+                            <span class="progress-value">90%</span>
+                        </div>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="progress-card">
+                        <div class="circular-progress" style="--percentage: 50deg; --color: #1ed76b;">
+                            <span class="progress-value">85%</span>
+                        </div>
+                        <span>ReactJS</span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="progress-card">
+                        <div class="circular-progress" style="--percentage: 70deg; --color: #fb0c0c;">
+                            <span class="progress-value">80%</span>
+                        </div>
+                        <span>NodeJS & MongoDB</span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="progress-card">
+                        <div class="circular-progress" style="--percentage: 90deg; --color: yellow;">
+                            <span class="progress-value">70%</span>
+                        </div>
+                        <span>C,C++ & Python</span>
+                    </div>
+                </div>
+            </section>
+
+
+        </div>
+
+    </div>
+
+    <hr>
+    <div class="portfolio" id="Projects">
+        <div class="container">
+            <h1 class="subTitle pro">My Work</h1>
+            <div class="workList">
+                <div class="work">
+                    <img src="pp.png" alt="">
+                    <div class="layout">
+                        <h3>Personal Portfolio </h3>
+                        <p>Developed a personal portfolio website using HTML, CSS, and JavaScript to showcase projects,
+                            skills, and
+                            accomplishments. The site features a responsive design, interactive animations,
+                            user-friendly navigation, a project
+                            gallery, an about section, and a contact form for an engaging user experience across all
+                            devices.</p>
+                        <!-- <a href="#"><i class="fa-solid fa-link"></i></a> -->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="IOT.webp" alt="">
+                    <div class="layout">
+                        <h3>IOT Doorbell</h3>
+                        <p>Developed a Facial Recognition Access Control System using Python, leveraging machine
+                            learning algorithms for secure
+                            entry. Integrated OpenCV and dlib for real-time facial detection and recognition, with a
+                            secure database for managing
+                            facial data, enhancing security through biometric authentication.</p>
+                        <!-- <a href="#"><i class="fa-solid fa-link"></i></a> -->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="jarvis.png" alt="">
+                    <div class="layout">
+                        <h3>Jarvis-Assistant</h3>
+                        <p>Developed a desktop voice assistant in Python to automate tasks like web browsing, fetching
+                            Wikipedia summaries, and
+                            playing YouTube videos. Utilized SpeechRecognition, pyttsx3, and pyautogui for
+                            speech-to-text, text-to-speech, and
+                            automation, enhancing productivity by enabling hands-free control for daily tasks.</p>
+                        <!-- <a href="#"><i class="fa-solid fa-link"></i></a> -->
+                    </div>
+                </div>
+                <!-- <div class="work">
+                    <img src="bg.jpg" alt="">
+                    <div class="layout">
+                        <h3>E-Commerce Website</h3>
+                        <p>Description</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div> -->
+            </div>
+        </div>
+        <!-- <a href="#" class="btn"> See more</a> -->
+    </div>
+    </div>
+    <!-- -----------contact------------- -->
+    <hr>
+    <div id="contact">
+        <h1 class="subTitle">Contact Me</h1>
+        <div class="container1">
+            <div class="contactLeft">
+
+                <p><a href="https://www.google.com/maps?q=Noida,+Uttar+Pradesh,+Sector+72" target="_blank"><i
+                            class="fas fa-map-marker-alt"></i> Noida,U.P.</a></p>
+                <p><a href="mailto:daisydahiya15@gmail.com"><i
+                            class="fa-solid fa-paper-plane"></i>daisydahiya15@gmail.com </a>
+                </p>
+                <p><a href="tel:+919812370992"><i class="fa-solid fa-phone-volume"></i>+91 9812370992</a></p>
+                <div class="socialicons">
+
+                </div>
+                <a href="./Daisyyyy.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contactRight">
+                <form action="https://formsubmit.co/daisydahiya20@gmail.com" method="POST">
+                    <title>Name</title>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <title>Email</title><input type="email" name="Email" placeholder="Your Email" required>
+                    <title>Message</title><textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="first">Daisy's Portfolio</div>
+            <div class="second">
+                <ul>
+                    <li><a href="#firstSection">Home &nbsp;&nbsp;|</a></li>
+                    <li><a href="#About">About &nbsp;&nbsp;|</a></li>
+                    <li><a href="#contact">Contact &nbsp;&nbsp;|</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                </ul>
+            </div>
+            <div class="third">
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+
+                <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+        </div>
+        <div class="textcenter">
+            Copyright &#169;daisyprofile.com | All rights are reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://kit.fontawesome.com/9c54c7718c.js" crossorigin="anonymous"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'React Developer', 'Software Developer'],
+            typeSpeed: 50,
+            backSpeed: 30,
+            loop: true,
+        });
+
+        var tablinks = document.getElementsByClassName('tabLinks');
+        var tabcontents = document.getElementsByClassName('tabContents');
+        // console.log(tabcontents)
+        function openTab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove('activeLink')
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove('activeTab')
+            }
+            event.currentTarget.classList.add("activeLink")
+            document.getElementById(tabname).classList.add('activeTab')
+        }
+
+        const scrollTopBtn = document.getElementById("scrollTopBtn");
+
+
+        window.onscroll = function () {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollTopBtn.style.display = "block";
+            } else {
+                scrollTopBtn.style.display = "none";
+            }
+        };
+
+
+        scrollTopBtn.onclick = function () {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        };
+
+
+
+
+    </script>
+</body>
+
+</html>
